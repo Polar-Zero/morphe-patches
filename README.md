@@ -4,9 +4,9 @@ Repository for Morphe Patches.
 
 ## ❓ About
 
-Patches for apps I like.
+This repository contains patches about help abandoned Android games run properly.
+이 Repo는 어밴던웨어가 된 안드로이드 게임의 정상 작동을 도와주는 패치를 포함합니다.
 
-TODO: Update this about section with a brief introduction/summary about this repo and what it offers.
 
 ## 🩹 Patches list
 
