@@ -8,7 +8,7 @@ object Constants {
     val COMPATIBILITY_BLACKROOM_GM = Compatibility(
         name = "길드 마스터가 되어주세요!", // App name as it appears in the Android launcher.
         packageName = "com.devblackroom.blanc.gm",
-        apkFileType = ApkFileType.APKX, // Preferred or recommended file type.
+        apkFileType = ApkFileType.APKS, // Preferred or recommended file type.
         appIconColor = 0xFF0045, // Icon color in Morphe Manager. Usually the same color as the icon background.
         targets = listOf(
             // "version = null" means the patch works with the latest app target
