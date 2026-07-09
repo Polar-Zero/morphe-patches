@@ -4,10 +4,7 @@ import app.morphe.util.inputStreamFromBundledResource
 import app.morphe.patcher.patch.ApkFileType
 import app.morphe.patcher.patch.AppTarget
 import app.morphe.patcher.patch.Compatibility
-import app.morphe.patcher.patch.ResourcePatchContext
 import app.morphe.patcher.patch.resourcePatch
-import java.io.File
-import java.nio.file.Files
 
 @Suppress("unused")
 val COMPATIBILITY_TARGET = Compatibility(
@@ -26,7 +23,7 @@ val COMPATIBILITY_TARGET = Compatibility(
 val savableVersionPatch = resourcePatch(name="저장가능 버전 패치",description = "오프라인 진행 및 저장 기능을 활성화합니다.",default = true)
 {
 	compatibleWith(COMPATIBILITY_TARGET)
-	execute
+	execute()
 	{
 		val fileName = "assets/bin/Data/Managed/Assembly-CSharp.dll"
 		
