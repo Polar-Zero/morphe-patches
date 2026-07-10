@@ -33,6 +33,12 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        
+      - name: Setting Permissions
+        run:
+            cd android
+            chmod +x gradlew
+            cd ..
 
       # Semantic release runs its own Gradle build command.
       # Only dev and main branch will generate a release as specified by .releaserc
@@ -56,5 +62,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run:
-            chmod 755 ./gradlew
             ./gradlew :patches:buildAndroid clean --no-daemon
