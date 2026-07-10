@@ -14,6 +14,7 @@ This repository contains patches about help abandoned Android games run properly
 
 >  또는 Morphe 앱에서 다음 링크를 붙여넣어 직접 추가하는 것도 가능합니다 : https://github.com/Polar-Zero/morphe-patches
 
+![QR Code](https://github.com/Polar-Zero/morphe-patches/blob/dev/QR.png?raw=true)
 
 ## 🩹 Patches list
 
