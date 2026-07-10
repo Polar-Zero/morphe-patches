@@ -36,7 +36,7 @@ jobs:
         
       - name: Setting Permissions
         run:
-          chmod +x android/gradlew
+          chmod +x ./gradlew
 
       # Semantic release runs its own Gradle build command.
       # Only dev and main branch will generate a release as specified by .releaserc
