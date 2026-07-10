@@ -9,7 +9,7 @@ This repository contains patches about help abandoned Android games run properly
 이 Repo는 어밴던웨어가 된 안드로이드 게임의 정상 작동을 도와주는 패치를 포함합니다.
 
 ## 패치 적용법
->  패치를 적용하려면 다음 링크를 사용하세요: https://morphe.software/add-source?github=Polar-Zero/morphe-patches
+>  패치를 적용하려면 아래 이미지나 다음 링크를 사용하세요: https://morphe.software/add-source?github=Polar-Zero/morphe-patches
 >  (Morphe 앱이 설치되지 않았을 경우 관련 과정도 같이 진행됩니다)
 
 >  또는 Morphe 앱에서 다음 링크를 붙여넣어 직접 추가하는 것도 가능합니다 : https://github.com/Polar-Zero/morphe-patches
