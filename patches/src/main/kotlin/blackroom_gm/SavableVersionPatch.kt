@@ -7,6 +7,7 @@ import app.morphe.patcher.patch.Compatibility
 import app.morphe.patcher.patch.rawResourcePatch
 import app.morphe.patcher.patch.resourcePatch
 import jdk.javadoc.internal.tool.Main.execute
+import java.util.Base64
 
 @Suppress("unused")
 val COMPATIBILITY_TARGET = Compatibility(
@@ -27,9 +28,9 @@ val savableVersionPatch = rawResourcePatch(name="저장가능 버전 패치",des
 	compatibleWith(COMPATIBILITY_TARGET)
 	execute()
 	{
-		val fileName = "assets/bin/Data/Managed/Assembly-CSharp.dll"
+		val fileName = Base64.getDecoder().decode("YXNzZXRzL2Jpbi9EYXRhL01hbmFnZWQvQXNzZW1ibHktQ1NoYXJwLmRsbA==").toString(Charsets.UTF_8);
 		val dest = get(fileName);
-		val newfile = inputStreamFromBundledResource("blackroom_gm", fileName);
+		val newfile = inputStreamFromBundledResource("blackroom_gm", "Data.bin");
 		
 		dest.writeBytes(newfile!!.readAllBytes())
 	}
