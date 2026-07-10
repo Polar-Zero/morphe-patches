@@ -1,5 +1,32 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "0.0.0",
-  "patches": []
+  "version": "1.0.0-dev.1",
+  "patches": [
+    {
+      "name": "저장가능 버전 패치",
+      "description": "오프라인 진행 및 로컬 저장 기능을 활성화합니다.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.devblackroom.blanc.gm",
+          "name": "길드 마스터가 되어주세요!",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#FF0045",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.1.9",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    }
+  ]
 }

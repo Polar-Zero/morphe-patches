@@ -5,23 +5,61 @@ Repository for Morphe Patches.
 ## ❓ About
 
 This repository contains patches about help abandoned Android games run properly.
+
 이 Repo는 어밴던웨어가 된 안드로이드 게임의 정상 작동을 도와주는 패치를 포함합니다.
 
+## 패치 적용법
+>  패치를 적용하려면 아래 이미지나 다음 링크를 사용하세요: https://morphe.software/add-source?github=Polar-Zero/morphe-patches
+>  (Morphe 앱이 설치되지 않았을 경우 관련 과정도 같이 진행됩니다)
+
+>  또는 Morphe 앱에서 다음 링크를 붙여넣어 직접 추가하는 것도 가능합니다 : https://github.com/Polar-Zero/morphe-patches
+
+![QR Code](https://github.com/Polar-Zero/morphe-patches/blob/dev/QR.png?raw=true)
 
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
+> **[v1.0.0-dev.1](https://github.com/Polar-Zero/morphe-patches/releases/tag/v1.0.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
+<details open>
+<summary>📦 길드 마스터가 되어주세요!&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
 
-<!-- Do not modify this section by hand. The patch list is generated when release.yml creates a new release.
-     
-     If you wish for the patches list to be collapsed, then remove the word 'EXPANDED' from the comment tag above.
+**🎯 Supported versions:**
 
-     If you wish to manually keep this list updated then remove the PATCHES_START and PATCHES_END 
-     comment blocks entirely. -->
+| 1.1.9 |
+| :---: |
 
-#### A list of your patches will automatically be shown here after your first patches release is created.
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [저장가능 버전 패치](#) | 오프라인 진행 및 로컬 저장 기능을 활성화합니다. |  |
+
+</details>
+
+<!-- PATCHES_END -->
+
 
 &nbsp;
+
+    아래 부가적인 설명은 영문으로만 제공됩니다.
+
+&nbsp;
+
+## How to use these patches
+
+> Click here to add these patches to Morphe: https://morphe.software/add-source?github=Polar-Zero/morphe-patches
+> (If the Morphe app is not installed, the relevant steps will also be performed)
+
+> Or manually add this repository url as a patch source in Morphe: https://github.com/Polar-Zero/morphe-patches
+
+### 🛠️ Building
+
+To build this Patches,
+you can follow the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation).
+
+## 📜 License
+
+this Morphe Patches are licensed under the [GNU General Public License v3.0](LICENSE)
+
 
 ## 🚀 Get started
 
@@ -65,22 +103,3 @@ To develop and release your Patches using this template:
   - Force push dev/main branch
   - A new replacement release will be created by `release.yml`
 
-
-<!-- The patches end tag is intentionally placed here so the first release will cleanup 
-     this readme of all developer instructions above. -->
-<!-- PATCHES_END -->
-
-#### How to use these patches
-
-Click here to add these patches to Morphe: https://morphe.software/add-source?github=Polar-Zero/morphe-patches
-
-Or manually add this repository url as a patch source in Morphe: https://github.com/Polar-Zero/morphe-patches
-
-### 🛠️ Building
-
-To build this Patches,
-you can follow the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation).
-
-## 📜 License
-
-this Morphe Patches are licensed under the [GNU General Public License v3.0](LICENSE)
