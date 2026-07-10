@@ -1,7 +1,6 @@
-group = "app.template"
+group = "net.polarzero"
 
 patches {
-    // TODO: Update this section with your project details.
     about {
         name = "PolarZero Morphe Patches"
         description = "for game patching"
@@ -26,6 +25,7 @@ val patchListGeneratorClasspath: Configuration by configurations.creating
 dependencies {
     compileOnly(libs.gson)
     patchListGeneratorClasspath(libs.gson)
+    implementation(libs.morphe.patches.library)
 }
 
 tasks {

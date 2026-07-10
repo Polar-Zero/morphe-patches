@@ -4,7 +4,9 @@ import app.morphe.util.inputStreamFromBundledResource
 import app.morphe.patcher.patch.ApkFileType
 import app.morphe.patcher.patch.AppTarget
 import app.morphe.patcher.patch.Compatibility
+import app.morphe.patcher.patch.rawResourcePatch
 import app.morphe.patcher.patch.resourcePatch
+import jdk.javadoc.internal.tool.Main.execute
 
 @Suppress("unused")
 val COMPATIBILITY_TARGET = Compatibility(
@@ -20,23 +22,15 @@ val COMPATIBILITY_TARGET = Compatibility(
 )
 
 @Suppress("unused")
-val savableVersionPatch = resourcePatch(name="저장가능 버전 패치",description = "오프라인 진행 및 저장 기능을 활성화합니다.",default = true)
+val savableVersionPatch = rawResourcePatch(name="저장가능 버전 패치",description = "오프라인 진행 및 로컬 저장 기능을 활성화합니다.",default = true)
 {
 	compatibleWith(COMPATIBILITY_TARGET)
 	execute()
 	{
 		val fileName = "assets/bin/Data/Managed/Assembly-CSharp.dll"
-		
+		val dest = get(fileName);
 		val newfile = inputStreamFromBundledResource("blackroom_gm", fileName);
-        newfile.use{input
-		->
-            destination.outputStream().use { output ->
-                input.copyTo(output)
-            }
-        }
-		Thread.sleep(50000)
-		val file = get(fileName)
-		val content = file.readText()
-		file.writeText(content)
+		
+		dest.writeBytes(newfile!!.readAllBytes())
 	}
 }
