@@ -55,4 +55,6 @@ jobs:
         if: steps.release.outputs.new_release_published != 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: ./gradlew :patches:buildAndroid clean --no-daemon
+        run:
+            chmod 755 ./gradlew
+            ./gradlew :patches:buildAndroid clean --no-daemon
