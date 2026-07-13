@@ -1,3 +1,9 @@
+## [1.2.0-dev.1](https://github.com/Polar-Zero/morphe-patches/compare/v1.1.0...v1.2.0-dev.1) (2026-07-13)
+
+### ✨ New Features
+
+* Update Vampire Patch ([0fdba4f](https://github.com/Polar-Zero/morphe-patches/commit/0fdba4fe1c4898de3319d5fda3149881a31dd470))
+
 ## [1.1.0](https://github.com/Polar-Zero/morphe-patches/compare/v1.0.0...v1.1.0) (2026-07-13)
 
 ### ✨ New Features
