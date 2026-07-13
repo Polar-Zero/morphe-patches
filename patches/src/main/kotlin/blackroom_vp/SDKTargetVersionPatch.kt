@@ -27,10 +27,9 @@ val mainPatch = resourcePatch(name="SDK 버전 변경",description = "대상 SDK
 	execute()
 	{
 		document("AndroidManifest.xml").use { d ->
-            d.documentElement.setAttribute("platformBuildVersionCode", "30")
             val usesSdk = d.getElementsByTagName("uses-sdk").item(0) as? Element
                 ?: d.createElement("uses-sdk").also { d.documentElement.appendChild(it) }
-            usesSdk.setAttribute("android:targetSdkVersion", "30")
+            usesSdk.setAttribute("android:targetSdkVersion", "28")
         }
 	}
 }
