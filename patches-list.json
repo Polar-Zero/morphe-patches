@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.2.0-dev.1",
+  "version": "1.2.0-dev.2",
   "patches": [
     {
       "name": "SDK 버전 변경",
@@ -26,6 +26,14 @@
           ]
         }
       ],
+      "options": []
+    },
+    {
+      "name": "더미 패치",
+      "description": "이 패치는 아무 코드도 실행하지 않습니다. apk 서명을 변경해야 할 때 유용할지도?",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": null,
       "options": []
     },
     {

@@ -19,7 +19,7 @@ This repository contains patches about help abandoned Android games run properly
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.2.0-dev.1](https://github.com/Polar-Zero/morphe-patches/releases/tag/v1.2.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
+> **[v1.2.0-dev.2](https://github.com/Polar-Zero/morphe-patches/releases/tag/v1.2.0-dev.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
 <details open>
 <summary>📦 흡혈귀의 연애방법&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
@@ -47,6 +47,16 @@ This repository contains patches about help abandoned Android games run properly
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
 | [저장가능 버전 패치](#) | 오프라인 진행 및 로컬 저장 기능을 활성화합니다. |  |
+
+</details>
+
+<details open>
+<summary>🌐 Universal&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [더미 패치](#) | 이 패치는 아무 코드도 실행하지 않습니다. apk 서명을 변경해야 할 때 유용할지도? |  |
 
 </details>
 
