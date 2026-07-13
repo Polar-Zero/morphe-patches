@@ -1,3 +1,10 @@
+## [1.1.0-dev.2](https://github.com/Polar-Zero/morphe-patches/compare/v1.1.0-dev.1...v1.1.0-dev.2) (2026-07-13)
+
+### ✨ New Features
+
+* 흡혈귀의 연애방법 테스트 패치 [#2](https://github.com/Polar-Zero/morphe-patches/issues/2) ([2a54ac5](https://github.com/Polar-Zero/morphe-patches/commit/2a54ac565c7361b75f9c0fed08ac6e211ce06dfd))
+* 흡혈귀의 연애방법 테스트 패치 [#3](https://github.com/Polar-Zero/morphe-patches/issues/3) ([8a3936f](https://github.com/Polar-Zero/morphe-patches/commit/8a3936f11e82b136de5b49258098663d6fb060ab))
+
 ## [1.1.0-dev.1](https://github.com/Polar-Zero/morphe-patches/compare/v1.0.0...v1.1.0-dev.1) (2026-07-13)
 
 ### ✨ New Features
