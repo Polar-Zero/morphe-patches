@@ -19,7 +19,7 @@ This repository contains patches about help abandoned Android games run properly
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.2.0-dev.2](https://github.com/Polar-Zero/morphe-patches/releases/tag/v1.2.0-dev.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
+> **[v1.2.0-dev.3](https://github.com/Polar-Zero/morphe-patches/releases/tag/v1.2.0-dev.3)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
 <details open>
 <summary>📦 흡혈귀의 연애방법&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
@@ -51,11 +51,12 @@ This repository contains patches about help abandoned Android games run properly
 </details>
 
 <details open>
-<summary>🌐 Universal&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<summary>🌐 Universal&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
+| [SDK 버전 변경 (28)](#sdk-28) | 대상 SDK를 강제로 변경하여 Android 12~14 기기에서 설치 가능하도록 조정합니다. (갤23, 폴드/플립5 등)<br>64Bit만 지원하는 기기에는 여전히 설치가 어렵습니다 (갤24+, 폴드/플립6+ 등 불가) |  |
 | [더미 패치](#) | 이 패치는 아무 코드도 실행하지 않습니다. apk 서명을 변경해야 할 때 유용할지도? |  |
 
 </details>

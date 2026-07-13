@@ -1,3 +1,9 @@
+## [1.2.0-dev.3](https://github.com/Polar-Zero/morphe-patches/compare/v1.2.0-dev.2...v1.2.0-dev.3) (2026-07-13)
+
+### ✨ New Features
+
+* Add Nothing Patch [#3](https://github.com/Polar-Zero/morphe-patches/issues/3) ([779ed10](https://github.com/Polar-Zero/morphe-patches/commit/779ed106fbdf4d323cea479f4ecea3ae037638ce))
+
 ## [1.2.0-dev.2](https://github.com/Polar-Zero/morphe-patches/compare/v1.2.0-dev.1...v1.2.0-dev.2) (2026-07-13)
 
 ### ✨ New Features
