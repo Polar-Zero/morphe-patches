@@ -1,3 +1,9 @@
+## [1.1.0-dev.1](https://github.com/Polar-Zero/morphe-patches/compare/v1.0.0...v1.1.0-dev.1) (2026-07-13)
+
+### ✨ New Features
+
+* 흡혈귀의 연애방법 테스트 패치 ([3f2434a](https://github.com/Polar-Zero/morphe-patches/commit/3f2434ab23ad4cff770e1739337e6d4f3d7651e5))
+
 ## 1.0.0 (2026-07-10)
 
 ### ✨ New Features
