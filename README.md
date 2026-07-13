@@ -19,7 +19,22 @@ This repository contains patches about help abandoned Android games run properly
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.0](https://github.com/Polar-Zero/morphe-patches/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
+> **[v1.1.0-dev.2](https://github.com/Polar-Zero/morphe-patches/releases/tag/v1.1.0-dev.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
+<details open>
+<summary>📦 흡혈귀의 연애방법&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.6.2 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [SDK 버전 변경](#sdk) | 대상 SDK를 강제로 변경하여 Android 12~14 기기에서 설치 가능하도록 조정합니다. (갤23, 폴드/플립5 등)<br>64Bit만 지원하는 기기에는 여전히 설치가 어렵습니다 (갤24+, 폴드/플립6+ 등 불가) |  |
+
+</details>
+
 <details open>
 <summary>📦 길드 마스터가 되어주세요!&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
