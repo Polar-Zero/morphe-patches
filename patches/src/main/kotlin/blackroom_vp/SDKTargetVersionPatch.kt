@@ -6,7 +6,6 @@ import app.morphe.patcher.patch.Compatibility
 import app.morphe.patcher.patch.resourcePatch
 import org.w3c.dom.Element
 
-
 @Suppress("unused")
 val COMPATIBILITY_TARGET = Compatibility(
 	name = "흡혈귀의 연애방법",
@@ -20,6 +19,7 @@ val COMPATIBILITY_TARGET = Compatibility(
 	)
 )
 
+//Code from https://github.com/rushiranpise/morphe-patches/blob/main/patches/src/main/kotlin/app/template/patches/shared/universal/UniversalPatches.kt#L161
 @Suppress("unused")
 val mainPatch = resourcePatch(name="SDK 버전 변경",description = "대상 SDK를 강제로 변경하여 Android 12~14 기기에서 설치 가능하도록 조정합니다. (갤23, 폴드/플립5 등)\n64Bit만 지원하는 기기에는 여전히 설치가 어렵습니다 (갤24+, 폴드/플립6+ 등 불가)",default = true)
 {
@@ -27,27 +27,10 @@ val mainPatch = resourcePatch(name="SDK 버전 변경",description = "대상 SDK
 	execute()
 	{
 		document("AndroidManifest.xml").use { d ->
-			var i = 0
-			while(i<d.getElementsByTagName("manifest").length)
-			{
-				val x = d.getElementsByTagName("manifest").item(i) as? Element
-				if(x!=null)
-				{
-					if(x.getAttribute("platformBuildVersionCode")!=null)
-					{
-						x.setAttribute("platformBuildVersionCode", "32")
-					}
-					if(x.getAttribute("platformBuildVersionName")!=null)
-					{
-						x.setAttribute("platformBuildVersionName", "12")
-					}
-					val n = d.createElement("uses-sdk")
-					n.setAttribute("android:minSdkVersion", "26")
-					n.setAttribute("android:targetSdkVersion", "35")
-					x.appendChild(n)
-				}
-				i++
-			}
-		}
+            d.documentElement.setAttribute("platformBuildVersionCode", "30")
+            val usesSdk = doc.getElementsByTagName("uses-sdk").item(0) as? Element
+                ?: doc.createElement("uses-sdk").also { doc.documentElement.appendChild(it) }
+            usesSdk.setAttribute("android:targetSdkVersion", "30")
+        }
 	}
 }
