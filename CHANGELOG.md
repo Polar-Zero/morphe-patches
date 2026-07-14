@@ -1,3 +1,9 @@
+## [1.2.0-dev.4](https://github.com/Polar-Zero/morphe-patches/compare/v1.2.0-dev.3...v1.2.0-dev.4) (2026-07-14)
+
+### 🐛 Bug Fixes
+
+* Memory usage of Blackroom GM Patch Fixed ([6aa1e2d](https://github.com/Polar-Zero/morphe-patches/commit/6aa1e2d0e189f20084e70d514b17b04b542405a2))
+
 ## [1.2.0-dev.3](https://github.com/Polar-Zero/morphe-patches/compare/v1.2.0-dev.2...v1.2.0-dev.3) (2026-07-13)
 
 ### ✨ New Features

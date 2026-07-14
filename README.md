@@ -19,7 +19,7 @@ This repository contains patches about help abandoned Android games run properly
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.2.0-dev.3](https://github.com/Polar-Zero/morphe-patches/releases/tag/v1.2.0-dev.3)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
+> **[v1.2.0-dev.4](https://github.com/Polar-Zero/morphe-patches/releases/tag/v1.2.0-dev.4)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
 <details open>
 <summary>📦 흡혈귀의 연애방법&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
