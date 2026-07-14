@@ -1,3 +1,9 @@
+## [1.2.0-dev.5](https://github.com/Polar-Zero/morphe-patches/compare/v1.2.0-dev.4...v1.2.0-dev.5) (2026-07-14)
+
+### 🐛 Bug Fixes
+
+* Change Base64 Decoder ([b1c2aee](https://github.com/Polar-Zero/morphe-patches/commit/b1c2aee0ecb1b2c4a6c077cfce3a3339b85e2f81))
+
 ## [1.2.0-dev.4](https://github.com/Polar-Zero/morphe-patches/compare/v1.2.0-dev.3...v1.2.0-dev.4) (2026-07-14)
 
 ### 🐛 Bug Fixes

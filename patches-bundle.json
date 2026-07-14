@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-07-14T06:56:17",
-  "description": "## [1.2.0-dev.4](https://github.com/Polar-Zero/morphe-patches/compare/v1.2.0-dev.3...v1.2.0-dev.4) (2026-07-14)\n\n### 🐛 Bug Fixes\n\n* Memory usage of Blackroom GM Patch Fixed ([6aa1e2d](https://github.com/Polar-Zero/morphe-patches/commit/6aa1e2d0e189f20084e70d514b17b04b542405a2))",
-  "download_url": "https://github.com/Polar-Zero/morphe-patches/releases/download/v1.2.0-dev.4/patches-1.2.0-dev.4.mpp",
+  "created_at": "2026-07-14T07:02:03",
+  "description": "## [1.2.0-dev.5](https://github.com/Polar-Zero/morphe-patches/compare/v1.2.0-dev.4...v1.2.0-dev.5) (2026-07-14)\n\n### 🐛 Bug Fixes\n\n* Change Base64 Decoder ([b1c2aee](https://github.com/Polar-Zero/morphe-patches/commit/b1c2aee0ecb1b2c4a6c077cfce3a3339b85e2f81))",
+  "download_url": "https://github.com/Polar-Zero/morphe-patches/releases/download/v1.2.0-dev.5/patches-1.2.0-dev.5.mpp",
   "signature_download_url": "",
-  "version": "1.2.0-dev.4"
+  "version": "1.2.0-dev.5"
 }
