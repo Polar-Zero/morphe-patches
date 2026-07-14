@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.1.0",
+  "version": "1.2.0-dev.5",
   "patches": [
     {
       "name": "SDK 버전 변경",
@@ -26,6 +26,22 @@
           ]
         }
       ],
+      "options": []
+    },
+    {
+      "name": "SDK 버전 변경 (28)",
+      "description": "대상 SDK를 강제로 변경하여 Android 12~14 기기에서 설치 가능하도록 조정합니다. (갤23, 폴드/플립5 등)\n64Bit만 지원하는 기기에는 여전히 설치가 어렵습니다 (갤24+, 폴드/플립6+ 등 불가)",
+      "default": false,
+      "dependencies": [],
+      "compatiblePackages": null,
+      "options": []
+    },
+    {
+      "name": "더미 패치",
+      "description": "이 패치는 아무 코드도 실행하지 않습니다. apk 서명을 변경해야 할 때 유용할지도?",
+      "default": false,
+      "dependencies": [],
+      "compatiblePackages": null,
       "options": []
     },
     {

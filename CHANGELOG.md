@@ -1,3 +1,34 @@
+## [1.2.0-dev.5](https://github.com/Polar-Zero/morphe-patches/compare/v1.2.0-dev.4...v1.2.0-dev.5) (2026-07-14)
+
+### 🐛 Bug Fixes
+
+* Change Base64 Decoder ([b1c2aee](https://github.com/Polar-Zero/morphe-patches/commit/b1c2aee0ecb1b2c4a6c077cfce3a3339b85e2f81))
+
+## [1.2.0-dev.4](https://github.com/Polar-Zero/morphe-patches/compare/v1.2.0-dev.3...v1.2.0-dev.4) (2026-07-14)
+
+### 🐛 Bug Fixes
+
+* Memory usage of Blackroom GM Patch Fixed ([6aa1e2d](https://github.com/Polar-Zero/morphe-patches/commit/6aa1e2d0e189f20084e70d514b17b04b542405a2))
+
+## [1.2.0-dev.3](https://github.com/Polar-Zero/morphe-patches/compare/v1.2.0-dev.2...v1.2.0-dev.3) (2026-07-13)
+
+### ✨ New Features
+
+* Add Nothing Patch [#3](https://github.com/Polar-Zero/morphe-patches/issues/3) ([779ed10](https://github.com/Polar-Zero/morphe-patches/commit/779ed106fbdf4d323cea479f4ecea3ae037638ce))
+
+## [1.2.0-dev.2](https://github.com/Polar-Zero/morphe-patches/compare/v1.2.0-dev.1...v1.2.0-dev.2) (2026-07-13)
+
+### ✨ New Features
+
+* Add Nothing Patch ([76f661c](https://github.com/Polar-Zero/morphe-patches/commit/76f661c13d8e2534138895be77dd41008ab07508))
+* Add Nothing Patch [#2](https://github.com/Polar-Zero/morphe-patches/issues/2) ([7630d95](https://github.com/Polar-Zero/morphe-patches/commit/7630d95067610fb0fa7fa9791fbf52615e84ce83))
+
+## [1.2.0-dev.1](https://github.com/Polar-Zero/morphe-patches/compare/v1.1.0...v1.2.0-dev.1) (2026-07-13)
+
+### ✨ New Features
+
+* Update Vampire Patch ([0fdba4f](https://github.com/Polar-Zero/morphe-patches/commit/0fdba4fe1c4898de3319d5fda3149881a31dd470))
+
 ## [1.1.0](https://github.com/Polar-Zero/morphe-patches/compare/v1.0.0...v1.1.0) (2026-07-13)
 
 ### ✨ New Features
